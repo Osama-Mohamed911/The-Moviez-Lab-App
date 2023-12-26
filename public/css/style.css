@@ -486,6 +486,8 @@ nav .nav-btn:hover {
   .overview .botns .second-btn {
     padding: 15px 20px;
     margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
   }
   .overview .botns .main-btn {
     width: 100%;
