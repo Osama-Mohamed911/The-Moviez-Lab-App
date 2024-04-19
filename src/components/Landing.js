@@ -23,41 +23,6 @@ function Landing() {
         <div>
           <section
             className="landing "
-            style={{ backgroundImage: `url(${landing})` }}
-          >
-            <div className="overlay1"></div>
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-8">
-                  <Fade direction={"down"} duration={1000}>
-                    <h1>Avengers: Endgame</h1>
-                  </Fade>
-                  <Fade direction={"right"} duration={1000} delay={500}>
-                    <ul>
-                      <li> Adventure</li>
-                      <li>Action</li>
-                      <li>Drama</li>
-                      <li>Duration : 3h 1m</li>
-                    </ul>
-                  </Fade>
-                  <Fade direction={"up"} duration={1000} delay={800}>
-                    <div className="buttons">
-                      <a href="" className="main-btn me-3">
-                        Watch Movie
-                      </a>
-                      <a href="" className="second-btn">
-                        View Info
-                      </a>
-                    </div>
-                  </Fade>
-                </div>
-              </div>
-            </div>
-          </section>{" "}
-        </div>
-        <div>
-          <section
-            className="landing "
             style={{ backgroundImage: `url(${landing2})` }}
           >
             <div className="overlay1"></div>
@@ -89,6 +54,41 @@ function Landing() {
               </div>
             </div>
           </section>
+        </div>
+        <div>
+          <section
+            className="landing "
+            style={{ backgroundImage: `url(${landing})` }}
+          >
+            <div className="overlay1"></div>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-8">
+                  <Fade direction={"down"} duration={1000}>
+                    <h1>Avengers: Endgame</h1>
+                  </Fade>
+                  <Fade direction={"right"} duration={1000} delay={500}>
+                    <ul>
+                      <li> Adventure</li>
+                      <li>Action</li>
+                      <li>Drama</li>
+                      <li>Duration : 3h 1m</li>
+                    </ul>
+                  </Fade>
+                  <Fade direction={"up"} duration={1000} delay={800}>
+                    <div className="buttons">
+                      <a href="" className="main-btn me-3">
+                        Watch Movie
+                      </a>
+                      <a href="" className="second-btn">
+                        View Info
+                      </a>
+                    </div>
+                  </Fade>
+                </div>
+              </div>
+            </div>
+          </section>{" "}
         </div>
         <div>
           <section
